@@ -1,15 +1,7 @@
-#include <stdio.h>
-#include "libmylib.h"
+#include "main.h"
+
 int main(void)
 {
-char str[] = "Hello, world!";
-int i;
-for (i = 0; str[i]; i++)
-{
-if (isupper(str[i]))
-{
-printf("%c is uppercase\n", str[i]);
-}
-}
-return (0);
+    _puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+    return (0);
 }
