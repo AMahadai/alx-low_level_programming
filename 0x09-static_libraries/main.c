@@ -2,6 +2,6 @@
 int main(void)
 {
 _puts
-("\"At the end of the day, I will be the best hacker\"\n\t- Kevin Mitnick");
+("\"At the end of the day, i'll be the best hacker\"\n\t- Kevin Mitnick");
 return (0);
 }
